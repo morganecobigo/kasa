@@ -1,0 +1,44 @@
+.owner-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 64px;
+  margin: -110px 0 0 0;
+}
+
+.name-owner {
+  height: 52px;
+  width: 100px;
+  color: rgba(255, 96, 96, 1);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.photo-owner {
+  border-radius: 602px;
+  width: 64px;
+  height: 64px;
+}
+
+@media (max-width: 375px) {
+  .owner-container {
+    width: 135px;
+    height: 33px;
+    padding-top: 124px;
+    padding-left: 198px;
+    position: absolute;
+  }
+  .name-owner {
+    width: 93px;
+    height: 33px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: right;
+    margin: 5px;
+  }
+  .photo-owner {
+    width: 32px;
+    height: 32px;
+  }
+}

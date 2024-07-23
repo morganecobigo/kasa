@@ -1,0 +1,33 @@
+.location-container {
+  width: 100%;
+}
+
+.title-logement {
+  font-size: 36px;
+  color: rgba(255, 96, 96, 1);
+  line-height: 51px;
+  font-weight: 500;
+
+  margin: 0;
+}
+
+.subtitle-logement {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  margin: 0;
+}
+@media (max-width: 375px) {
+  .location-container {
+    padding-top: 10px;
+  }
+  .title-logement {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .subtitle-logement {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

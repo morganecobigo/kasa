@@ -1,0 +1,55 @@
+.kasa_header {
+  padding: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kasa_logo {
+  width: 210px;
+  height: 68px;
+}
+
+.kasa_header a {
+  font-size: 24px;
+  line-height: 34px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.kasa_header a {
+  position: relative;
+}
+
+.kasa_header a::after {
+  content: "";
+  transform-origin: 0 0;
+  transform: scaleX(0);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s;
+  border: 1px solid black;
+}
+.kasa_header a:hover::after {
+  transform: scaleX(1);
+}
+
+@media (max-width: 375px) {
+  .kasa_header {
+    padding: 20px;
+  }
+  .kasa_logo {
+    width: 145px;
+    height: 46px;
+  }
+
+  nav {
+    display: flex;
+  }
+  .kasa_header a {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}

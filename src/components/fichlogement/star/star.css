@@ -1,0 +1,16 @@
+.star_contenair {
+  text-align: right;
+  padding-top: 10px;
+}
+@media (max-width: 375px) {
+  .star_contenair {
+    width: 98px;
+    height: 18px;
+    padding-top: 20px;
+    text-align: left;
+  }
+  .stars {
+    width: 18px;
+    height: 18px;
+  }
+}

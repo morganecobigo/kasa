@@ -1,0 +1,16 @@
+.about_container {
+  margin-bottom: 50px;
+}
+.about_container .sombre {
+  opacity: 0;
+  background-color: transparent;
+}
+
+.about_list-item {
+  margin-bottom: 30px;
+}
+@media (max-width: 375px) {
+  .about_container {
+    margin: 0;
+  }
+}

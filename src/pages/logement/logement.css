@@ -1,0 +1,21 @@
+.collapse_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.logement_collapse {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 375px) {
+  .collapse_container {
+    flex-direction: column;
+  }
+  .logement_collapse {
+    width: 335px;
+    padding: 10px 0 10px 0px;
+  }
+}
