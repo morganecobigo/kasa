@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31d4871d.css",
+    "main.js": "/static/js/main.7d6a69bd.js",
+    "static/js/453.9701a2b0.chunk.js": "/static/js/453.9701a2b0.chunk.js",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png": "/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.b4c1f18ad2e9569d7680.png",
+    "static/media/img.png": "/static/media/img.0b3373d85749b68829c5.png",
+    "index.html": "/index.html",
+    "main.31d4871d.css.map": "/static/css/main.31d4871d.css.map",
+    "main.7d6a69bd.js.map": "/static/js/main.7d6a69bd.js.map",
+    "453.9701a2b0.chunk.js.map": "/static/js/453.9701a2b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d4871d.css",
+    "static/js/main.7d6a69bd.js"
+  ]
+}
