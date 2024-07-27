@@ -31,11 +31,12 @@
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .card-container {
     display: table;
   }
   .card-link {
+    width: 95%;
     height: 255px;
   }
   .text-card {

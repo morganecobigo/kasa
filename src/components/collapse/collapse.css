@@ -55,7 +55,7 @@
   margin: 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .collapse-button {
     padding: 0 0px 0px 10px;
     font-size: 13px;

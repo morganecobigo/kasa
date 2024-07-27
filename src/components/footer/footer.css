@@ -20,13 +20,13 @@
   align-items: center;
 }
 
-@media (max-width: 375px) {
-  .footer-container {
-  }
+@media (max-width: 768px) {
   .footer_logo {
     padding-top: 0;
   }
   .footer_title {
     font-size: 12px;
+    padding: 0px 100px 0px 91px;
+    text-align: center;
   }
 }

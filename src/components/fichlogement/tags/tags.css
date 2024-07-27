@@ -19,7 +19,7 @@
   margin: 5px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .tag-container {
     display: flex;
     padding-top: 10px;

@@ -20,7 +20,7 @@
   height: 64px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .owner-container {
     width: 135px;
     height: 33px;

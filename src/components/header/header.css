@@ -36,9 +36,10 @@
   transform: scaleX(1);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .kasa_header {
-    padding: 20px;
+    width: 95%;
+    padding: 20px 0px 30px 10px;
   }
   .kasa_logo {
     width: 145px;
@@ -47,9 +48,11 @@
 
   nav {
     display: flex;
+    padding: 0px 0px 0px 10px;
   }
   .kasa_header a {
     font-size: 12px;
     text-transform: uppercase;
+    padding: 5px 5px 0px 10px;
   }
 }

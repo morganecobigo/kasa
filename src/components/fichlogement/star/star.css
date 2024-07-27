@@ -2,7 +2,7 @@
   text-align: right;
   padding-top: 10px;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .star_contenair {
     width: 98px;
     height: 18px;
