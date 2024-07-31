@@ -6,7 +6,7 @@ const Card = (props) => {
   const { logement } = props;
   return (
     <div className="card-container">
-      <Link to={`/logement/${logement.id}`}>
+      <Link to={`/kasa/logement/${logement.id}`}>
         <div
           className="card-link"
           style={{ backgroundImage: `url(${logement.cover})` }}

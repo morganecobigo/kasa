@@ -17,7 +17,11 @@ const Navigation = () => {
           <Route exact path="/kasa/about" element={<About />} />
           <Route exact path="/kasa/error" element={<Error />} />
           <Route exact path="/kasa/logement/:id" element={<Logement />} />
-          <Route exact path="/*" element={<Navigate replace to="/error" />} />
+          <Route
+            exact
+            path="/*"
+            element={<Navigate replace to="/kasa/error" />}
+          />
         </Routes>
       </main>
       <Footer />
