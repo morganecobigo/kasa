@@ -7,7 +7,7 @@ const Gallery = () => {
   return (
     <div className="gallery-container">
       {logements.map((logement) => (
-        <Card logement={logement} />
+        <Card logement={logement} key={logement.id} />
       ))}
     </div>
   );
