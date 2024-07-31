@@ -10,7 +10,7 @@ const About = () => {
     <div className="about_container">
       <Banner image={imgAboutBanner} />
       {aboutList.map((about) => (
-        <div className="about_list-item">
+        <div className="about_list-item" key={about.title}>
           <Collapse title={about.title} text={about.content} />
         </div>
       ))}
