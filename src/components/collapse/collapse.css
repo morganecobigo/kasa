@@ -59,6 +59,8 @@
 
 @media (max-width: 768px) {
   .collapse-button {
+    width: 95%;
+    margin: auto;
     padding: 10px 0 10px 10px;
     font-size: 13px;
     line-height: 18.54px;
