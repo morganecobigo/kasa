@@ -9,8 +9,17 @@
 .about_list-item {
   margin-bottom: 30px;
 }
+.abt-list {
+  width: 70%;
+  margin: 40px auto;
+}
 @media (max-width: 768px) {
   .about_container {
     margin: 0;
+  }
+  .about_list-item {
+    width: 95%;
+    height: 30px;
+    margin-left: 20px;
   }
 }

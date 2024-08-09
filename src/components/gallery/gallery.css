@@ -10,5 +10,8 @@
   .gallery-container {
     background-color: transparent;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
