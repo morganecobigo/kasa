@@ -4,7 +4,8 @@
 }
 @media (max-width: 768px) {
   .star_contenair {
-    width: 98px;
+    width: 95%;
+    margin: auto;
     height: 18px;
     padding-top: 20px;
     text-align: left;

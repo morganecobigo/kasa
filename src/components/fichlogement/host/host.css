@@ -22,10 +22,8 @@
 
 @media (max-width: 768px) {
   .owner-container {
-    width: 135px;
-    height: 33px;
-    padding-top: 124px;
-    padding-left: 198px;
+    width: 95%;
+    margin: auto;
     position: absolute;
   }
   .name-owner {
@@ -34,8 +32,6 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 17px;
-    text-align: right;
-    margin: 5px;
   }
   .photo-owner {
     width: 32px;

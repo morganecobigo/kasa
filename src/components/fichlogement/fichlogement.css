@@ -21,6 +21,8 @@
 @media (max-width: 768px) {
   .location-container {
     padding-top: 10px;
+    width: 95%;
+    margin: auto;
   }
   .title-logement {
     font-size: 18px;

@@ -40,7 +40,8 @@
 
 @media (max-width: 768px) {
   .kasa_banner {
-    margin-bottom: 20px;
+    width: 95%;
+    margin: auto;
   }
   .kasa_image {
     width: 95%;

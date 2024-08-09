@@ -23,9 +23,11 @@
   .tag-container {
     display: flex;
     padding-top: 10px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin: auto;
   }
   .tag-container li {
-    width: 84px;
     height: 18px;
     font-size: 10px;
     font-weight: 700;
