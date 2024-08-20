@@ -20,18 +20,27 @@ const Carousel = (props) => {
     }
     setIndex(newIndex);
   };
+  if (pictures.length === 0) {
+    return <div className="carousel-container">No images available</div>;
+  }
   return (
     <div className="carousel-container">
       <img className="img-carousel" alt="carousel" src={pictures[index]} />
-      <button className="arrow arrow-left" onClick={decrement}>
-        <img className="img-arrow" src={left} alt="arrow" />
-      </button>
-      <button className="arrow arrow-right" onClick={increment}>
-        <img className="img-arrow" src={right} alt="arrow" />
-      </button>
-      <div className="current-photo-number">
-        {index + 1}/{props.pictures.length}
-      </div>
+      {pictures.length > 1 && (
+        <>
+          <button className="arrow arrow-left" onClick={decrement}>
+            <img className="img-arrow" src={left} alt="arrow" />
+          </button>
+          <button className="arrow arrow-right" onClick={increment}>
+            <img className="img-arrow" src={right} alt="arrow" />
+          </button>
+        </>
+      )}
+      {pictures.length > 1 && (
+        <div className="current-photo-number">
+          {index + 1}/{props.pictures.length}
+        </div>
+      )}
     </div>
   );
 };
