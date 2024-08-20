@@ -9,7 +9,7 @@ export default function NoPage() {
         <p className="errorContainer__text">
           Oups! La page que vous demandez n'existe pas.
         </p>
-        <NavLink to="/" className="errorcontainer__link">
+        <NavLink to="/kasa" className="errorcontainer__link">
           Retourner sur la page d'accueil
         </NavLink>
       </div>
